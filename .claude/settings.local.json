@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find . -type f -exec ls -lh {} \\\\;)",
+      "Bash(sort -k5 -h)",
+      "Bash(find . -not -path './.git/*' -type f -size +100M -exec ls -lh {} \\\\;)"
+    ]
+  }
+}
